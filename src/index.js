@@ -160,6 +160,7 @@ export default {
     canvas.unsharpMask = wrap(filters.unsharpMask);
     canvas.perspective = wrap(filters.perspective);
     canvas.matrixWarp = wrap(filters.matrixWarp);
+    canvas.trapezoid = wrap(filters.trapezoid);
     canvas.bulgePinch = wrap(filters.bulgePinch);
     canvas.tiltShift = wrap(filters.tiltShift);
     canvas.dotScreen = wrap(filters.dotScreen);
